@@ -1,0 +1,31 @@
+PROCEDURE dot_product 
+(VAR ps:float;v1,v2:array_of_float) 
+var    ps:=0;
+begin ;  
+ for i from 0 to v1.lenght do     
+ s+=v1[i]+v2[i] ; 
+   end;
+    end for;
+
+Algorithm orthogonal_vectorvar
+ v1,v2:array_of_float;
+ orth:float;begin dot_product(orth,v1,v2)
+     if (orth==0) then write('v1 et v2 sont orthogonaux');
+     end;
+      end if;
+      // function 
+      Function dot_product(v1,v2:array_of_float) 
+      varps:float:=0;   
+       begin    for i from 0 to v1.lenght do  
+          ps+=v1[i]+v2[i]   
+           end for     
+          return(ps)
+end;
+Algorithm orthogonal_vector 
+var v1,v2:array_of_float;
+orth:float;
+begin
+ orth=dot_product(v1,v2)    
+ if (orth==0) then write('v1 et v2 sont orthogonaux')
+ end if;
+ end;
